@@ -1,0 +1,156 @@
+*/ {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 200px;
+    color: #515151;
+}
+
+h2 {
+    font-family: 'Montserrat';
+
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    color: #989D9C;
+    margin-top: 30px
+}
+
+a {
+    padding-left: 20px;
+}
+
+.butaoo {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.butao {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    border-radius: 20.5px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+
+.imagem {
+    height: 500px;
+    width: 500px;
+    margin: 100px 0 0 100px;
+}
+
+
+
+.titulo {
+    display: flex;
+    letter-spacing: 5px;
+    padding-right: 900px;
+
+}
+
+section {
+    position: absolute;
+    margin: 50px 0 0 700px;
+}
+
+@media screen and (max-width: 800px) {
+    .imagem {
+        position: absolute;
+        width: 350px;
+        height: 500px;
+    }
+
+    section {
+        margin: 500px 0 100px 100px;
+        width: 390px;
+        height: 800px;
+    }
+
+    p {
+        width: 400px;
+    }
+
+    .butao {
+        margin: 100px 0 0 0;
+    }
+
+    nav {
+
+        text-align: center;
+    }
+
+    a {
+        width: 100px;
+        text-align: left;
+        font-size: 12px;
+        padding-left: 0px
+    }
+
+    header {
+
+        height: 5px;
+         width: 3px;
+
+    }
+
+
+
+}
+
+/*
+
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    
+    */
